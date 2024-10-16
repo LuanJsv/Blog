@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    <nav id="navbar">
+      <div id="navbar-itens">
+        <h2>Blog</h2>
+        <ul id="nav-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Categorias</a>
+          </li>
+          <li>
+            <a href="#">Contato</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <main id="posts-container ">
+
+      <article class="post">
+         <img src="WhatsApp Image 2024-10-14 at 21.23.34.jpeg" alt="Paisagem da praia durante a noite">
+         <h3 class="title"><a href="#">Praia de São Vicente-SP</a></h3>
+         <p class="descricao">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ex modi, facilis soluta cumque non deserunt, eos delectus alias temporibus quam, in doloremque aliquid? Rem fugit dolore iure ratione nemo!
+         </p>
+         <p class="author">Por: Luan Dantas</p>
+         <a href="#">Ler mais</a>
+      </article>
+      <article class="post">
+         <img src="WhatsApp Image 2024-10-14 at 21.27.35.jpeg" alt="Visão de um piquinique com vista para uma roda gigante">
+         <h3 class="title"><a href="#">Parque Vila Lobos</a></h3>
+         <p class="descricao">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ex modi, facilis soluta cumque non deserunt, eos delectus alias temporibus quam, in doloremque aliquid? Rem fugit dolore iure ratione nemo!
+         </p>
+         <p class="author">Por: Luan Dantas</p>
+         <a href="#">Ler mais</a>
+      </article>
+      <article class="post">
+         <img src="WhatsApp Image 2024-10-14 at 21.27.26.jpeg" alt="Visão do lago do parque ibirapuera">
+         <h3 class="title"><a href="#">Parque Ibirapuera</a></h3>
+         <p class="descricao">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ex modi, facilis soluta cumque non deserunt, eos delectus alias temporibus quam, in doloremque aliquid? Rem fugit dolore iure ratione nemo!
+         </p>
+         <p class="author">Por: Luan Dantas</p>
+         <a href="#">Ler mais</a>
+      </article>
+    </main>
+
+    <aside id="sidebar">
+      <section id="search-bar">
+        <h4>Busca</h4>
+        <form >
+          <input type="text" placeholder="Pesquise no blog">
+          <input type="submit" value="Buscar">
+        </form>
+      </section>
+      <section id="categories">
+        <h4>Categorias</h4>
+        <nav>
+          <ul>
+            <li><a href="#">Paisagens</a>
+            </li>
+            <li>
+              <a href="#">Aventuras</a>
+            </li>
+            <li>
+              <a href="#">Viagens longas</a>
+            </li>
+            <li>
+              <a href="#">Água</a>
+            </li>
+            <li><a href="#">Jardim</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="tags">
+        <h4>Tags</h4>
+        <div id="tags-container">
+          <a href="#">Lifestyle</a>
+          <a href="#">Saúde</a>
+          <a href="#">Viagem</a>
+          <a href="#">Mar</a>
+          <a href="#">Grama</a>
+          <a href="#">Árvores</a>
+        </div>
+      </section>
+    </aside>
+  </div>
+  <footer id="footer">
+    <h2>Blog</h2>
+    <p>Os melhores registro de viagens</p>
+    <p>2024 &copy; Luan Dantas  </p>
+  </footer>
+  </body>
+</html>
